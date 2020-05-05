@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 60%;
+  
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+    width: 60%;
+  left: 0;
+  background-color:white;
+}
+
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin: 40px;
+    background-color:white;
+
+}
+
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    float: left;
+    border: none;
+    margin-left: 5%;
+    padding: 0 10px 0 20px;
+    
+} */
+.container div {
+   
+   
+   text-align: center;
+   padding: 20px 10px 20px 10px;
+   width: 30%;
+   box-sizing: border-box;
+   visibility: visible;
+   margin-bottom: 3%;
+   background-color: rgb(255, 255, 255);
+}
+.container > div {
+    width: 300px;
+}
+.container p{
+    display: inline;
+    padding-left: 30px;
+    color: #316DC3;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+}
+.left h4{
+     padding-top: 40px;
+     padding-left: 110px;
+     font-size: 20px;
+     color: #316DC3;
+     font-weight: bold;
+     font-family: 'Merriweather', serif;
+
+
+}
+
+
+/* .centered img {
+  width: 150px;
+  border-radius: 50%;
+} */
+/* .container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    
+    background-color:white;
+} */
+.right {
+
+    width: 40%;
+  right: 0;
+  background-color:white;
+  color: #666666;
+}
+
+.centered marquee {
+    padding:0 110px 0 20px;
+}
+.right h4{
+     padding-top: 40px;
+     padding-left: 110px;
+     font-size: 20px;
+     color: #316DC3;
+     font-weight: bold;
+     font-family: 'Merriweather', serif;
+}
+.right marquee {
+    padding-top: 30px;
+    padding-left: 110px;
+}
+</style>
+</head>
+<body>
+
+<div class="split left">
+    <h4 class="h4">MISSION AND UPCOMING PROJECTS<br><span style="color: rgb(13, 190, 13);">______</span></h4>
+    <div class="container">
+            
+        <div class="text-center box-shadow11 mb-30 bg-white p-30 border">
+            <img src="Hepatitis.png" alt="liver pic">
+            <p>HEPATITIS</p>
+        </div>
+        <div class="text-center box-shadow11 mb-30 bg-white p-30 border">
+            <img src="housing.png" alt="HOUSING pic">
+            <p>HOUSING SOCIETY</p>
+        </div>
+        
+        
+        
+        <div class="text-center box-shadow11 mb-30 bg-white p-30 border">
+            <img src="IT.png" alt="it pic">
+            <p>IT LITERACY</p>
+        </div>
+        <div class="text-center box-shadow11 mb-30 bg-white p-30 border">
+            <img src="tharparkar.png" alt="liver pic">
+            <p>THARPARKAR</p>  
+        </div>
+
+        
+    </div>
+    
+       
+    
+    
+
+</div>
+
+
+<div class="split right">
+  <div class="centered">
+    <h4 class="h4">UPCOMING EVENTS<br><span style="color: rgb(13, 190, 13);">______</span></h4>
+    <marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()">
+        
+        Saylani Welfare Distributing Ration &amp; Clothes to affected people of Balochistan .<a href="#" style="color: blue">More Details</a> <br><br>
+        Entry Test Accouncement (Graphic Designing &amp; Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad .<a href="#" style="color: blue">More Details</a> <br><br>
+        Dr Jamil Ahmed (Additional Inspector General of Police) &amp; Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training .<a href="#" style="color: blue">More Details</a>   <br><br> 
+        PIAIC Entrance Exam Merit Ranking List Announced.<a href="#" style="color: blue">More Details</a>  <br><br> President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="#" style="color: blue">More Details</a>                    
+    
+    </marquee>
+  </div>
+</div>
+     
+</body>
+</html> 
