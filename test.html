@@ -3,13 +3,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
   font-family: Arial;
   color: white;
 }
 
-.split {
+/* .split {
   height: 60%;
   
   position: fixed;
@@ -46,7 +47,7 @@ body {
     padding: 0 10px 0 20px;
     
 } */
-.container div {
+/* .container div {
    
    
    text-align: center;
@@ -77,7 +78,7 @@ body {
      font-family: 'Merriweather', serif;
 
 
-}
+} */
 
 
 /* .centered img {
@@ -92,7 +93,7 @@ body {
     
     background-color:white;
 } */
-.right {
+/* .right {
 
     width: 40%;
   right: 0;
@@ -115,11 +116,123 @@ body {
     padding-top: 30px;
     padding-left: 110px;
 }
+.footer {
+  
+   
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: left;
+  
+   font-size: 15px;
+}
+.footer  > div {
+    
+    display : flex;
+    flex-wrap : wrap;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    justify-content: space-around;
+
+}
+.footer div p {
+    line-height: 25px;
+} */
+#details123 {
+    background-color: rgb(39, 39, 41);
+    
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(179, 179, 179);
+    padding: 48px 20px 10px 20px;
+}
+* {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Merriweather';
+}
+#adress12 {
+width: 390px;
+margin-right: 40px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+#address12 p {
+    margin-left: 43px;
+    margin-top: 30px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#address12 ul li {
+    display: flex ;
+    padding-bottom: 6px;
+    
+}
+#usefullinks {
+    width: 360px;
+    padding-left: 20px;
+}
+#usefullinks p {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Merriweather';
+}
+#usefullinks hr {
+    background-color: rgb(14, 71, 6);
+    padding: 1px;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+#contactlinks {
+    width: 360px;
+    height: 80px;
+    margin-right: 10px;
+}
+#contactlinks p {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Merriweather';
+    margin-left: 40px;
+}
+#contactlinks ul li {
+   margin-right: 10px;
+   padding: 5px 7px 5px 7px;
+   background-color: rgb(25, 135, 238);
+   border-radius: 30px;
+   color: white;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 </style>
 </head>
 <body>
 
-<div class="split left">
+<!-- <div class="split left">
     <h4 class="h4">MISSION AND UPCOMING PROJECTS<br><span style="color: rgb(13, 190, 13);">______</span></h4>
     <div class="container">
             
@@ -165,7 +278,64 @@ body {
     
     </marquee>
   </div>
+</div> -->
+<div id="details123">
+
+
+    <div id="address12">
+        <p>Head Office,<br>
+            A-25, Bahadurabad Chowrangi Karachi, Pakistan</p>
+
+
+        <ul>
+            <li> 📞UAN:111-729-526 </li>
+            <li>📞(+0092-213) 4130786-90</li>
+            <li>📞CELL: 92-311-1729526</li>
+            <li> 📞USA NO +1(716)941 7792 </li>
+            <li>✉️UK NO (+44)115 970 6256 </li>
+            <li>🌎info@saylaniwelfare.com</li>
+        </ul>
+    </div>
+
+
+    <div id="usefullinks">
+        <p>Useful Links</p>
+        <hr>
+    </div>
+
+    <div id="contactlinks">
+        <p>Connect With Us</p>
+
+        <ul>
+            <li class="fa fa-facebook"></li>
+            <li class="fa fa-twitter"></li>
+            <li class="fa fa-instagram"></li>
+            <li class="fa fa-youtube"></li>
+        </ul>
+    </div>
+
 </div>
+<!-- <div class="footer">
+    <div id="adress">
+        <p>HEAD Office<br>
+         A-25, Bahadurabad Chowrangi Karachi, Pakistan<br><br>
+        <span class="fa fa-phone" style="color: green;"></span> UAN: 111-729-526 &emsp;<span class="fa fa-globe" style="color:green;"></span> (+0092-213) 4130786-90<br>
+        <span class="fa fa-phone" style="color: green;"></span> CELL: 92-311-1729526<br>
+        <span class="fa fa-phone" style="color: green;"></span> USA NO +1(716)941 7792<br>
+        <span class="fa fa-phone" style="color: green;"></span> UK NO (+44)115 970 6256<br>
+        <span class="fa fa-envelope-o" style="color: green;"></span>  info@saylaniwelfare.com
+        </p>
+    </div>
+    
+    <div id="useful-links">
+        <p>
+            USEFUL LINKS
+        </p>
+    </div>
+  
+    
+
+</div> -->
      
 </body>
 </html> 
