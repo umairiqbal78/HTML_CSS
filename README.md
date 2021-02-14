@@ -1,7 +1,7 @@
 # HTML_CSS
-##Saylani Welfare trust Home Page design copied for practicing skills.
+## Saylani Welfare trust Home Page design copied for practicing skills.
 
-**Original Work**
+**Original Saylani Welfare Trust Homepage**
 https://mail.saylaniwelfare.com/home
 
 **MY WORK**
